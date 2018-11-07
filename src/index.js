@@ -5,7 +5,6 @@ import './index.css'
 import * as serviceWorker from './serviceWorker'
 
 // Components
-import Main from './components/Main/Main'
 import App from './components/App'
 
 // Import the Store
