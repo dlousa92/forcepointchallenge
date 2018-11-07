@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-// A Single component is a component that will be populated by one person
+// A Single will be populated by one person
 
 class Single extends Component {
   render () {
