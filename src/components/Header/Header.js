@@ -9,9 +9,9 @@ class Header extends Component {
       <div className='header'>
         <nav>
           <ul>Sort by:
-            <li><a href='#'>Default</a></li>
-            <li><a href='#'>A-Z</a></li>
-            <li><a href='#'>Priority</a></li>
+            <li><button>Default</button></li>
+            <li><button>A-Z</button></li>
+            <li><button onClick={() => this.props.sortPriority()}>Priority</button></li>
           </ul>
         </nav>
       </div>
