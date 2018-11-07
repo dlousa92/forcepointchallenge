@@ -10,7 +10,7 @@ class Header extends Component {
         <nav>
           <ul>Sort by:
             <li><a href='#'>Default</a></li>
-            <li><a href='#'>Alphabetical</a></li>
+            <li><a href='#'>A-Z</a></li>
             <li><a href='#'>Priority</a></li>
           </ul>
         </nav>
