@@ -8,9 +8,9 @@ import Item from '../Item/Item'
 class Grid extends Component {
   render () {
     return (
-      <div className='App'>
-        <div>
-          {this.props.data.persons.map((person, i) => <Item person={person} key={i} i={i} />)}
+      <div className='container'>
+        <div className='grid'>
+          {this.props.data.persons.map((person, i) => <Item className='griditem' person={person} key={i} i={i} />)}
         </div>
       </div>
     )
