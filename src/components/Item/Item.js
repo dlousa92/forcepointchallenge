@@ -24,7 +24,6 @@ class Item extends Component {
     function setClassName () {
       if (person.priority === 1) {
         className = 'personitem orange'
-        console.log(className)
       } else if (person.priority === 2) {
         className = 'personitem green'
       } else if (person.priority === 3) {
