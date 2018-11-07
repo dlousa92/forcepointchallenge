@@ -1,3 +1,20 @@
 .personitem {
   border: 2px solid black;
 }
+
+/*The styles below are assigned to each person dependent on their priority attribute value */
+.orange {
+  background-color: orange;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
