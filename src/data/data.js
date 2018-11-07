@@ -1,116 +1,113 @@
-const data = {
-  "persons": [
+const data = [
 
-    {
+  {
 
-      "name":  "Jerry",
+    'name': 'Jerry',
 
-      "age": 39,
+    'age': 39,
 
-      "priority": 1,
+    'priority': 1,
 
-      "category": "two"
+    'category': 'two'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Amy",
+    'name': 'Amy',
 
-      "age": 28,
+    'age': 28,
 
-      "priority": 4,
+    'priority': 4,
 
-      "category": "one"
+    'category': 'one'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Bernice",
+    'name': 'Bernice',
 
-      "age": 99,
+    'age': 99,
 
-      "priority": 2,
+    'priority': 2,
 
-      "category": "two"
+    'category': 'two'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Antoine",
+    'name': 'Antoine',
 
-      "age": 50,
+    'age': 50,
 
-      "priority": 1,
+    'priority': 1,
 
-      "category": "three"
+    'category': 'three'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Andrea",
+    'name': 'Andrea',
 
-      "age": 25,
+    'age': 25,
 
-      "priority": 1,
+    'priority': 1,
 
-      "category": "three"
+    'category': 'three'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Fredrick",
+    'name': 'Fredrick',
 
-      "age": 44,
+    'age': 44,
 
-      "priority": 3,
+    'priority': 3,
 
-      "category": "one"
+    'category': 'one'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Mariel",
+    'name': 'Mariel',
 
-      "age": 34,
+    'age': 34,
 
-      "priority": 2,
+    'priority': 2,
 
-      "category": "three"
+    'category': 'three'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Arnold",
+    'name': 'Arnold',
 
-      "age": 74,
+    'age': 74,
 
-      "priority": 4,
+    'priority': 4,
 
-      "category": "two"
+    'category': 'two'
 
-    },
+  },
 
-    {
+  {
 
-      "name":  "Janice",
+    'name': 'Janice',
 
-      "age": 54,
+    'age': 54,
 
-      "priority": 2,
+    'priority': 2,
 
-      "category": "two"
+    'category': 'two'
 
-    }
+  }
 
-  ]
-
-}
+]
 
 export default data

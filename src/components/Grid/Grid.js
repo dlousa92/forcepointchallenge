@@ -10,7 +10,7 @@ class Grid extends Component {
     return (
       <div className='container'>
         <div className='grid'>
-          {this.props.data.persons.map((person, i) => <Item className='griditem' person={person} key={i} i={i} />)}
+          {this.props.data.map((person, i) => <Item className='griditem' person={person} key={i} i={i} />)}
         </div>
       </div>
     )
