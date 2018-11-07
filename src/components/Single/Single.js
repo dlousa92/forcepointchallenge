@@ -5,11 +5,13 @@ import './Single.css'
 
 class Single extends Component {
   render () {
+    const person = this.props.person
+
     return (
       <div className='App'>
-        <p>{this.props.person.name}</p>
-        <p>{this.props.person.age}</p>
-        <p>{this.props.person.category}</p>
+        <p>{person.name}</p>
+        <p>{person.age}</p>
+        <p>{person.category}</p>
       </div>
     )
   }
