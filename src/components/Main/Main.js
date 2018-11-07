@@ -6,7 +6,7 @@ import Grid from '../Grid/Grid'
 class Main extends Component {
   render () {
     return (
-      <div className='App'>
+      <div className='main'>
         <Grid {...this.props} />
       </div>
     )
