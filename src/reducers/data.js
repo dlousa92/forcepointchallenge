@@ -110,7 +110,7 @@ const DEFAULT_STATE =
     }
   ]
 
-// Handles all actions
+// Handles all action types
 function data (state = [], action) {
   console.log(state, action)
   switch (action.type) {
@@ -121,7 +121,6 @@ function data (state = [], action) {
         ...DEFAULT_STATE
       ]
     case 'SORT_ALPHABETICALLY':
-      console.log(state)
       return [
         // Make a copy of state and compare the name attribute value of each item in the array. Sort by A-Z.
         ...state.sort(function (a, b) {
