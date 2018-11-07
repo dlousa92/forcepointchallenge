@@ -5,12 +5,13 @@ import './index.css'
 import * as serviceWorker from './serviceWorker'
 
 // Components
-import App from './components/App/App'
-import Grid from './components/Grid/Grid'
+import Main from './components/Main/Main'
+import App from './components/App'
 
 // Import the Store
 import store from './store'
 
+// Connect Store to application
 const app = (
   <Provider store={store}>
     <App />
