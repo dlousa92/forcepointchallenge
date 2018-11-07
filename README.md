@@ -37,8 +37,34 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Objective of Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### HTML and Visuals
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+·         The grid should display data in the order that it is received
+
+·         Each person should be displayed in a rectangle with a black border of 2px
+
+·         There should be 3 person items per row (no need to be responsive)
+
+·         Each grid item should contain the name, age, and category of the person.
+
+·         Each grid item should have a corresponding background color based on the priority of the person featured: 1 - Orange 2 - Green 3 - Blue 4 - Purple
+
+### Header Functionality
+
+Please implement a header that allows the user to sort and filter the data.
+
+#### Implement Sorting
+
+Provide the user a way to sort the data. The user should be allowed to choose from 3 methods:
+
+1.       Default: no sort performed (rely on order of the data)
+
+2.       A-Z: Alphabetically ascending by name
+
+3.       Priority: Numerically ascending by priority
+
+#### Implement Filtering
+
+Provide the user with radio buttons that allow them to filter the data. Each radio button should be dynamically generated based on the category field in the dummy data - do not hard-code this. When a filter is selected, only people matching the filter should be displayed.
