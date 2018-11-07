@@ -5,6 +5,7 @@ import './Single.css'
 
 class Single extends Component {
   render () {
+    // This will contain all of the info for an individual person
     const person = this.props.person
 
     return (
