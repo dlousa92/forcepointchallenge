@@ -6,9 +6,9 @@ class Single extends Component {
   render () {
     return (
       <div className='App'>
-        <p>
-          Hello, I am a single person
-        </p>
+        <p>{this.props.person.name}</p>
+        <p>{this.props.person.age}</p>
+        <p>{this.props.person.category}</p>
       </div>
     )
   }
