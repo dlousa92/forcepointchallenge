@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Single.css'
 
 // A Single will be populated by one person
 

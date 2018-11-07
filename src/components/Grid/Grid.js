@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Grid.css'
 
 import Single from '../Single/Single'
 
@@ -8,9 +9,9 @@ class Grid extends Component {
   render () {
     return (
       <div className='App'>
-        <p>
+        <div>
           {this.props.data.persons.map((person, i) => <Single person={person} key={i} i={i} />)}
-        </p>
+        </div>
       </div>
     )
   }
