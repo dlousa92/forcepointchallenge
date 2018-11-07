@@ -1,5 +1,5 @@
 const data = {
-  "data": [
+  "persons": [
 
     {
 
@@ -112,3 +112,5 @@ const data = {
   ]
 
 }
+
+export default data
