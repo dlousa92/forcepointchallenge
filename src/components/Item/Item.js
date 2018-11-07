@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import './Single.css'
+import './Item.css'
 
-// A Single will be populated by one person
+// A Item will be populated by one person
 
-class Single extends Component {
+class Item extends Component {
   render () {
     // This will contain all of the info for an individual person
     const person = this.props.person
 
     return (
-      <div className='App'>
+      <div className='personitem'>
         <p>{person.name}</p>
         <p>{person.age}</p>
         <p>{person.category}</p>
@@ -18,4 +18,4 @@ class Single extends Component {
   }
 }
 
-export default Single
+export default Item
