@@ -7,7 +7,7 @@ class Main extends Component {
   render () {
     return (
       <div className='App'>
-        <Grid />
+        <Grid {...this.props} />
       </div>
     )
   }
