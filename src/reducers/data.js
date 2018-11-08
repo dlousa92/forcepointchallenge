@@ -144,6 +144,12 @@ function data (state = [], action) {
           return 0
         })
       ]
+    case 'FILTER_BY_CATEGORY':
+      // Go through each item in DEFAULT_STATE and check if its category matches the category being clicked on. If it does, return it.
+      const category = action.item
+      return [
+        ...DEFAULT_STATE.filter(item => item.category === category)
+      ]
     default:
       return state
   }
