@@ -1,0 +1,26 @@
+.header {
+  margin: 20px 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sortbuttons {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  list-style-type: none;
+}
+
+.sortbuttons li button {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.filterbuttons label {
+  margin: 0px 5px;
+  text-transform: uppercase;
+}

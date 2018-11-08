@@ -22,13 +22,13 @@ class Header extends Component {
   render () {
     return (
       <div className='header'>
-        <nav>
-          <ul>Sort by:
+        <nav className='navbar'>
+          <ul className='sortbuttons'>Sort by:
             <li><button onClick={() => this.props.sortDefault()}>Default</button></li>
             <li><button onClick={() => this.props.sortAlphabetical()}>A-Z</button></li>
             <li><button onClick={() => this.props.sortPriority()}>Priority</button></li>
           </ul>
-          <form>{categoryArray.map((item, i) => <label key={i} >{item}<input name='category' type='radio' value={item} onClick={() => this.props.filterByCategory(item)} /></label>)}
+          <form className='filterbuttons'>Filter by: {categoryArray.map((item, i) => <label key={i} >{item}<input name='category' type='radio' value={item} onClick={() => this.props.filterByCategory(item)} /></label>)}
           </form>
         </nav>
       </div>
