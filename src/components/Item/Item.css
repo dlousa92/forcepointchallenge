@@ -8,18 +8,18 @@
 }
 
 /*The styles below are assigned to each person dependent on their priority attribute value */
-.orange {
+[class='1 personitem'] {
   background-color: orange;
 }
 
-.green {
+[class='2 personitem'] {
   background-color: green;
 }
 
-.blue {
+[class='3 personitem'] {
   background-color: blue;
 }
 
-.purple {
+[class='4 personitem'] {
   background-color: purple;
 }
