@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import './Header.css'
 
+// This is an empty array where we will store all category values of our data
+let categoryArray = []
+
 class Header extends Component {
-
   componentWillMount () {
-    // This is an empty array where we will store all category values of our data
-    let categoryArray = []
-
     // This function searches through each item in our data and pulls out the category value of each item.
     // If that category value doesn't exist in our categoryArray, then we push it into that array. Repeat for each item.
     function setCategoryArray (data) {
@@ -15,7 +14,6 @@ class Header extends Component {
           console.log(item.category)
           categoryArray.push(item.category)
         }
-        console.log(categoryArray)
       })
     }
     setCategoryArray(this.props.data)
@@ -30,7 +28,7 @@ class Header extends Component {
             <li><button onClick={() => this.props.sortAlphabetical()}>A-Z</button></li>
             <li><button onClick={() => this.props.sortPriority()}>Priority</button></li>
           </ul>
-          <form>Filter by:
+          <form>{categoryArray.map((item, i) => <label>{item}<input name={item} type='radio' value={item} /></label>)}
           </form>
         </nav>
       </div>
@@ -38,4 +36,4 @@ class Header extends Component {
   }
 }
 
-export default Headerß
+export default Header
