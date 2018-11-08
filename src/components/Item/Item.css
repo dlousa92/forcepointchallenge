@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-/*The styles below are assigned to each person dependent on their priority attribute value */
+/*The styles below are assigned to each person dependent on their priority  */
 [class='1 personitem'] {
   background-color: rgb(228, 129, 0);
 }
