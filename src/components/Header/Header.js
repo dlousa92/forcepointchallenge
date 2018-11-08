@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Header.css'
-import { filterByCategory } from '../../actions/actionCreators';
 
 // This is an empty array where we will store all category values of our data
 let categoryArray = []

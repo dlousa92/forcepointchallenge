@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './Item.css'
 
-let className
-
 class Item extends Component {
   render () {
     // This will contain all of the info for an individual person
