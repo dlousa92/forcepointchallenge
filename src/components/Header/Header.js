@@ -8,7 +8,7 @@ let categoryArray = []
 class Header extends Component {
   componentWillMount () {
     // This function searches through each item in our data and pulls out the category value of each item.
-    // If that category value doesn't exist in our categoryArray, then we push it into that array. Repeat for each item.
+    // If that category value doesn't exist in our categoryArray, then we add it. Repeat for each item. This allows us to dynamically generate additional category buttons if data is added with additional categorys.
     function setCategoryArray (data) {
       data.forEach(item => {
         if (categoryArray.indexOf(item.category) < 0) {
