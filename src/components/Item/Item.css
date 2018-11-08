@@ -4,22 +4,21 @@
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
-
 }
 
 /*The styles below are assigned to each person dependent on their priority attribute value */
 [class='1 personitem'] {
-  background-color: orange;
+  background-color: rgb(228, 129, 0);
 }
 
 [class='2 personitem'] {
-  background-color: green;
+  background-color: rgb(0, 83, 0);
 }
 
 [class='3 personitem'] {
-  background-color: blue;
+  background-color: rgb(12, 12, 161);
 }
 
 [class='4 personitem'] {
-  background-color: purple;
+  background-color: rgb(105, 1, 105);
 }
