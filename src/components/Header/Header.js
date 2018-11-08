@@ -28,7 +28,7 @@ class Header extends Component {
             <li><button onClick={() => this.props.sortAlphabetical()}>A-Z</button></li>
             <li><button onClick={() => this.props.sortPriority()}>Priority</button></li>
           </ul>
-          <form>{categoryArray.map((item, i) => <label>{item}<input name={item} type='radio' value={item} /></label>)}
+          <form>{categoryArray.map((item, i) => <label>{item}<input name='category' type='radio' value={item} /></label>)}
           </form>
         </nav>
       </div>
