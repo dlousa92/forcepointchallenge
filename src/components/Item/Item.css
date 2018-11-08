@@ -1,9 +1,11 @@
 .personitem {
   border: 2px solid black;
   color: white;
-  text-align: center;
   font-weight: bold;
   text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*The styles below are assigned to each person dependent on their priority attribute value */
