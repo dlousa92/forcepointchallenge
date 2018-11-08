@@ -18,3 +18,11 @@ export function sortPriority () {
     type: 'SORT_BY_PRIORITY'
   }
 }
+
+// filter items by category
+export function filterByCategory (item) {
+  return {
+    type: 'FILTER_BY_CATEGORY',
+    item
+  }
+}
