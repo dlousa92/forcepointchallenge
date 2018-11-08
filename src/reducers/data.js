@@ -112,7 +112,6 @@ const DEFAULT_STATE =
 
 // Handles all action types
 function data (state = [], action) {
-  console.log(state, action)
   switch (action.type) {
     case 'SORT_BY_DEFAULT':
 
